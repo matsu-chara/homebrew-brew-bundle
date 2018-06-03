@@ -1,7 +1,7 @@
 # brew-bundle.rb
 
 def usage
-  puts <<-EOS.undent
+  puts <<~EOS
   Usage: brew bundle [path]
 
   Looks for a Brewfile and runs each line as a brew command.
@@ -27,7 +27,7 @@ def usage
   exit
 end
 
-opoo <<-EOS.undent
+opoo <<~EOS
   brew bundle is unsupported and will be replaced with another,
   incompatible version at some point.
   Please feel free volunteer to support it in a tap.
